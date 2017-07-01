@@ -1,0 +1,25 @@
+{
+  "name": "spoxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "micro": "^7.3.3",
+    "micro-cors": "0.0.4",
+    "micro-jwt-auth": "^1.6.0",
+    "micro-query": "^0.1.0",
+    "ramda": "^0.24.1",
+    "spotify": "^0.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0"
+  }
+}
